@@ -11,7 +11,11 @@ const parseLangResource = langResource => {
 };
 
 const parseCliInput = input => {
-  const [key, ...langResources] = input;
+  const [add, key, ...langResources] = input;
+  if (!add || add != 'add') {
+    throw 'Invalid command';
+  }
+
   if (!key) {
     throw 'Invalid key';
   }

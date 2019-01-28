@@ -1,7 +1,10 @@
 {
-  "name": "i18n-helper",
-  "author": "Jorge Luis Iten Júnior",
-  "version": "1.0.0",
+  "name": "npm-i18n-helper",
+  "author": {
+    "name": "Jorge Luis Iten Júnior",
+    "email": "jorgeiten@gmail.com"
+  },
+  "version": "1.0.1",
   "license": "ISC",
   "main": "index.js",
   "description": "A command line tool to help adding i18n strings to projects",
@@ -10,7 +13,7 @@
     "test": "jest"
   },
   "bin": {
-    "add": "./src/cli.js"
+    "npm-i18n-helper": "./src/cli.js"
   },
   "dependencies": {
     "lodash": "^4.17.11",
