@@ -1,0 +1,28 @@
+{
+  "name": "i18n-helper",
+  "author": "Jorge Luis Iten Júnior",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "index.js",
+  "description": "A command line tool to help adding i18n strings to projects",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest"
+  },
+  "bin": {
+    "add": "./src/cli.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "meow": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.0.0",
+    "mock-fs": "^4.7.0",
+    "prettier": "^1.15.3"
+  }
+}
